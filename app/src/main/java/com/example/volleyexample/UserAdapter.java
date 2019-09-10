@@ -59,6 +59,7 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.ViewHolder> {
 
     @Override
     public int getItemCount() {
+        
         return userList.size();
     }
 
@@ -89,7 +90,7 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.ViewHolder> {
     }
 
     interface ItemRowActionListener {
-        public void onEditButtonClick(int position);
-        public void onDeleteButtonClick(int position);
+        public void onEditButtonClick(int position23);
+        public void onDeleteButtonClick(int position45);
     }
 }
