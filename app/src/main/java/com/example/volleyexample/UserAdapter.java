@@ -90,7 +90,6 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.ViewHolder> {
 
     interface ItemRowActionListener {
         public void onEditButtonClick(int position);
-
         public void onDeleteButtonClick(int position);
     }
 }

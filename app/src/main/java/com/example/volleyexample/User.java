@@ -9,6 +9,7 @@ public class User implements Serializable {
     String name;
     String email;
     String password;
+    String phoneNum;
 
     public int getUserId() {
         return userId;
@@ -42,14 +43,14 @@ public class User implements Serializable {
         this.phoneNum = phoneNum;
     }
 
-    String phoneNum;
+
 
     public String getName() {
         return name;
     }
 
     public void setName(String name) {
-        this.name = name;
+          this.name = name;
     }
 
     public static Comparator<User> UserIdComparator = new Comparator<User>() {
