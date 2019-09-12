@@ -5,12 +5,14 @@ import java.util.Comparator;
 
 public class User implements Serializable {
 
+    // instance variables
     int userId;
     String name;
     String email;
     String password;
     String phoneNum;
 
+    // getters and setters
     public int getUserId() {
         return userId;
     }
