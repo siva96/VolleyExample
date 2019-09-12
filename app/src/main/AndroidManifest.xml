@@ -3,6 +3,7 @@
     package="com.example.volleyexample">
 
     <!-- Permission Added From Client Side Sivananda -->
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <!-- App Components Sivananda -->
